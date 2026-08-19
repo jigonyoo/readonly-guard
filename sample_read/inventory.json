@@ -1,0 +1,10 @@
+{
+  "environment": "fictional-audit-target",
+  "resources": [
+    {"id": "cfg-01", "kind": "configuration", "state": "present"},
+    {"id": "cfg-02", "kind": "configuration", "state": "present"},
+    {"id": "log-01", "kind": "evidence", "state": "present"}
+  ],
+  "synthetic": true
+}
+
