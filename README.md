@@ -19,6 +19,12 @@ This is a tested application-level policy, not an operating-system sandbox. Read
 `readonly-guard_1pager.md` before presenting it to a client; the limitations are part
 of the contract.
 
+> **The paid composition publishes its evidence, including where this layer has no number.**
+> GuardStack (bottom of this file) carries this guard as `with gs.readonly():`; its benchmark
+> report is public — **[evidence report](https://claude.ai/code/artifact/b9435c65-2173-4e40-90d7-54eb67a080fa)** — and it prices gates 1
+> through 5 by ablation. Read-only is not among them: it has no row there. Better to know
+> that from the report than to find it afterwards.
+
 ---
 
 ## Part of a set
